@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../default.css" type="text/css">
+<title>Creation's Graffiti</title>
+<style type="text/css">
+<!--
+    html,body                   {height:100%;width:100%;margin:0;padding:0;text-align:center;overflow:hidden;}
+    .article                    {background:rgba(220,220,220,.2);box-shadow:0 0 100px #777 inset;height:100%;overflow:hidden;}
+    .section                    {position:fixed;height:100%;width:100%;overflow-x:auto;overflow-y:hidden;auto;white-space:nowrap;}
+    h1                          {background:rgba(220,220,20,.2);position:fixed;height:5%;width:100%;margin:0;}
+    .figure                     {position:fixed;height:75%;width:100%;top:5%;margin:0;padding:0;visibility:hidden;;overflow:hidden;opacity:0;transition:all .5s ease 0s;}
+input:checked + * + .figure     {visibility:visible;z-index:10;opacity:1;}
+    .figure img                 {box-shadow:0 0 5px rgba(20,20,20,.4);max-height:80%;max-width:90%;}
+    .figcaption                 {background:rgba(220,220,20,.2);position:absolute;height:10%;width:100%;bottom:0;white-space:normal;overflow-y:auto;}
+    input                       {position:absolute;height:15%;width:15%;bottom:10%;z-index:-10;opacity:0;}
+    input + label               {background:rgba(20,220,20,.2);display:inline-block;position:relative;height:15%;top:80%;width:auto;max-height:100px;line-height:15%;margin:1em 0;z-index:15;opacity:.8;cursor:pointer;border-radius:100%;transform:scale(0.7);overflow:hidden;transition:all .3s ease 0s;}
+    input + label:hover         {box-shadow:0 0 3px #333;opacity:1;}
+    input + label img           {height:100%;}
+    input:checked               {margin:0 2em;}
+    input:checked + label       {margin:0 2em;top:77.5%;transform:scale(1);opacity:1;border-radius:5%;}
+
+-->
+</style>
+</head>
+<body>
+
+<div class="article">
+    <h1>金髪</h1>
+    <div class="section">
+                <input type="radio" name="ctl" id="00" value="00" autofocus="autofocus" />
+        <label for="00"><img src="00/teiki_s.jpg" alt="Kia" /></label>
+        <div class="figure">
+            <b>Kia #1</b>
+            <div class="cite">花火大会に起こる奇跡</div>
+            <a href="00/teiki.jpg"><img src="00/teiki.jpg" alt="花火大会に起こる奇跡" /></a>
+            <div class="figcaption">夏ですね、夏といえば心霊ですよね</div>
+        </div>
+                <input type="radio" name="ctl" id="01" value="01" />
+        <label for="01"><img src="01/teiki_s.jpg" alt="きろし" /></label>
+        <div class="figure">
+            <b>きろし #1</b>
+            <div class="cite">プラチナ</div>
+            <a href="01/teiki.jpg"><img src="01/teiki.jpg" alt="プラチナ" /></a>
+            <div class="figcaption">定期ですぅ。</div>
+        </div>
+                <input type="radio" name="ctl" id="02" value="02" />
+        <label for="02"><img src="02/teiki_s.jpg" alt="ぱろ" /></label>
+        <div class="figure">
+            <b>ぱろ #1</b>
+            <div class="cite">ブリジット</div>
+            <a href="02/teiki.jpg"><img src="02/teiki.jpg" alt="ブリジット" /></a>
+            <div class="figcaption">ギルティギアのブリジット描きました</div>
+        </div>
+                <input type="radio" name="ctl" id="03" value="03" />
+        <label for="03"><img src="03/teiki_s.jpg" alt="ひまひと" /></label>
+        <div class="figure">
+            <b>ひまひと #1</b>
+            <div class="cite">マミさん</div>
+            <a href="03/teiki.jpg"><img src="03/teiki.jpg" alt="マミさん" /></a>
+            <div class="figcaption">映画のポストカードはマミさんでした</div>
+        </div>
+                <input type="radio" name="ctl" id="04" value="04" />
+        <label for="04"><img src="04/teiki_s.jpg" alt="大佐" /></label>
+        <div class="figure">
+            <b>大佐 #1</b>
+            <div class="cite">金髪</div>
+            <a href="04/teiki.jpg"><img src="04/teiki.jpg" alt="金髪" /></a>
+            <div class="figcaption">ようじょつよい</div>
+        </div>
+                <input type="radio" name="ctl" id="05" value="05" />
+        <label for="05"><img src="05/teiki_s.jpg" alt="春枝" /></label>
+        <div class="figure">
+            <b>春枝 #1</b>
+            <div class="cite">金髪っ子</div>
+            <a href="05/teiki.jpg"><img src="05/teiki.jpg" alt="金髪っ子" /></a>
+            <div class="figcaption">男の娘にしたかった</div>
+        </div>
+                <input type="radio" name="ctl" id="06" value="06" />
+        <label for="06"><img src="06/teiki_s.jpg" alt="砂糖 網" /></label>
+        <div class="figure">
+            <b>砂糖 網 #1</b>
+            <div class="cite">つみました</div>
+            <a href="06/teiki.jpg"><img src="06/teiki.jpg" alt="つみました" /></a>
+            <div class="figcaption">背景ないですごめんなさい</div>
+        </div>
+                <input type="radio" name="ctl" id="07" value="07" />
+        <label for="07"><img src="07/teiki_s.jpg" alt="KZY(カズヤ)" /></label>
+        <div class="figure">
+            <b>KZY(カズヤ) #1</b>
+            <div class="cite">バス停</div>
+            <a href="07/teiki.jpg"><img src="07/teiki.jpg" alt="バス停" /></a>
+            <div class="figcaption">濡れ濡れにしたかった・・・。</div>
+        </div>
+                <input type="radio" name="ctl" id="08" value="08" />
+        <label for="08"><img src="08/teiki_s.jpg" alt="KZY(カズヤ)" /></label>
+        <div class="figure">
+            <b>KZY(カズヤ) #2</b>
+            <div class="cite">うちの娘</div>
+            <a href="08/teiki.jpg"><img src="08/teiki.jpg" alt="うちの娘" /></a>
+            <div class="figcaption">ケモミミ描くとモチベが上がります。</div>
+        </div>
+                <input type="radio" name="ctl" id="09" value="09" />
+        <label for="09"><img src="09/teiki_s.jpg" alt="ありあ" /></label>
+        <div class="figure">
+            <b>ありあ #1</b>
+            <div class="cite">7月定期</div>
+            <a href="09/teiki.jpg"><img src="09/teiki.jpg" alt="7月定期" /></a>
+            <div class="figcaption">背景適当になりました。</div>
+        </div>
+                <input type="radio" name="ctl" id="10" value="10" />
+        <label for="10"><img src="10/teiki_s.jpg" alt="いわとび" /></label>
+        <div class="figure">
+            <b>いわとび #1</b>
+            <div class="cite">アーンヴァルMk2</div>
+            <a href="10/teiki.jpg"><img src="10/teiki.jpg" alt="アーンヴァルMk2" /></a>
+            <div class="figcaption">ぶそーしんき</div>
+        </div>
+                <input type="radio" name="ctl" id="11" value="11" />
+        <label for="11"><img src="11/teiki_s.jpg" alt="いんか" /></label>
+        <div class="figure">
+            <b>いんか #1</b>
+            <div class="cite">金髪</div>
+            <a href="11/teiki.jpg"><img src="11/teiki.jpg" alt="金髪" /></a>
+            <div class="figcaption">今回はfateの金髪キャラ３人！！</div>
+        </div>
+                <input type="radio" name="ctl" id="12" value="12" />
+        <label for="12"><img src="12/teiki_s.jpg" alt="かなめ" /></label>
+        <div class="figure">
+            <b>かなめ #1</b>
+            <div class="cite">yzk氏とhrn氏キャラ</div>
+            <a href="12/teiki.jpg"><img src="12/teiki.jpg" alt="yzk氏とhrn氏キャラ" /></a>
+            <div class="figcaption">思いついた舞台とドラマの金髪のキャラを描きました。</div>
+        </div>
+                <input type="radio" name="ctl" id="13" value="13" />
+        <label for="13"><img src="13/teiki_s.jpg" alt="たそ" /></label>
+        <div class="figure">
+            <b>たそ #1</b>
+            <div class="cite">金色に輝く</div>
+            <a href="13/teiki.jpg"><img src="13/teiki.jpg" alt="金色に輝く" /></a>
+            <div class="figcaption">髪の毛！！</div>
+        </div>
+                <input type="radio" name="ctl" id="14" value="14" />
+        <label for="14"><img src="14/teiki_s.jpg" alt="にょもすけ" /></label>
+        <div class="figure">
+            <b>にょもすけ #1</b>
+            <div class="cite">けもみみ</div>
+            <a href="14/teiki.jpg"><img src="14/teiki.jpg" alt="けもみみ" /></a>
+            <div class="figcaption">アニメ塗りっていいものですよね</div>
+        </div>
+                <input type="radio" name="ctl" id="15" value="15" />
+        <label for="15"><img src="15/teiki_s.jpg" alt="冬弥" /></label>
+        <div class="figure">
+            <b>冬弥 #1</b>
+            <div class="cite">すたえなちゃん</div>
+            <a href="15/teiki.jpg"><img src="15/teiki.jpg" alt="すたえなちゃん" /></a>
+            <div class="figcaption">すたえなちゃんの光ってる感じkawaiiとおもう</div>
+        </div>
+                <input type="radio" name="ctl" id="16" value="16" />
+        <label for="16"><img src="16/teiki_s.jpg" alt="別所" /></label>
+        <div class="figure">
+            <b>別所 #1</b>
+            <div class="cite">おりがみき</div>
+            <a href="16/teiki.jpg"><img src="16/teiki.jpg" alt="おりがみき" /></a>
+            <div class="figcaption">映画公開期間が被りに被って破産しました。</div>
+        </div>
+                <input type="radio" name="ctl" id="17" value="17" />
+        <label for="17"><img src="17/teiki_s.jpg" alt="山田" /></label>
+        <div class="figure">
+            <b>山田 #1</b>
+            <div class="cite">みきさむ</div>
+            <a href="17/teiki.jpg"><img src="17/teiki.jpg" alt="みきさむ" /></a>
+            <div class="figcaption">美希じゃスーツは呼び出せないとかそういうのは</div>
+        </div>
+                <input type="radio" name="ctl" id="18" value="18" />
+        <label for="18"><img src="18/teiki_s.jpg" alt="折れ鉄" /></label>
+        <div class="figure">
+            <b>折れ鉄 #1</b>
+            <div class="cite">いちごちゃんとみき</div>
+            <a href="18/teiki.jpg"><img src="18/teiki.jpg" alt="いちごちゃんとみき" /></a>
+            <div class="figcaption">塗りとかもうわからんねェ！！！</div>
+        </div>
+                <input type="radio" name="ctl" id="19" value="19" />
+        <label for="19"><img src="19/teiki_s.jpg" alt="来宮　肌更" /></label>
+        <div class="figure">
+            <b>来宮　肌更 #1</b>
+            <div class="cite">金髪お姉さん</div>
+            <a href="19/teiki.jpg"><img src="19/teiki.jpg" alt="金髪お姉さん" /></a>
+            <div class="figcaption">金髪のお姉さん描きました。できるだけえっちに描こうと頑張りました。本当は男の娘ショタ描きたかったです。</div>
+        </div>
+                <input type="radio" name="ctl" id="20" value="20" />
+        <label for="20"><img src="20/teiki_s.jpg" alt="桜犬" /></label>
+        <div class="figure">
+            <b>桜犬 #1</b>
+            <div class="cite">ぱつきん</div>
+            <a href="20/teiki.jpg"><img src="20/teiki.jpg" alt="ぱつきん" /></a>
+            <div class="figcaption">ぺぺぺ～</div>
+        </div>
+                <input type="radio" name="ctl" id="21" value="21" />
+        <label for="21"><img src="21/teiki_s.jpg" alt="桜空乃" /></label>
+        <div class="figure">
+            <b>桜空乃 #1</b>
+            <div class="cite">これから夏休み！</div>
+            <a href="21/teiki.jpg"><img src="21/teiki.jpg" alt="これから夏休み！" /></a>
+            <div class="figcaption">うちの娘の金髪娘です！（初お披露目）<br />
+日本名は夏に関する名前にしたいなぁ。できれば花の名前・・・<br />
+ついでに紅葉ちゃん一応毛先金髪なので一緒に描きました！（描きたかっただけ）<br />
+<br />
+もうすぐ夏休み（その前にテスト）ですねぇ～</div>
+        </div>
+                <input type="radio" name="ctl" id="22" value="22" />
+        <label for="22"><img src="22/teiki_s.jpg" alt="紅月" /></label>
+        <div class="figure">
+            <b>紅月 #1</b>
+            <div class="cite">金髪美少女</div>
+            <a href="22/teiki.jpg"><img src="22/teiki.jpg" alt="金髪美少女" /></a>
+            <div class="figcaption">ウェディング的な</div>
+        </div>
+                <input type="radio" name="ctl" id="23" value="23" />
+        <label for="23"><img src="23/teiki_s.jpg" alt="Len*" /></label>
+        <div class="figure">
+            <b>Len* #1</b>
+            <div class="cite">金髪スク水っこ</div>
+            <a href="23/teiki.jpg"><img src="23/teiki.jpg" alt="金髪スク水っこ" /></a>
+            <div class="figcaption">夏なので描かなくてはいけないという使命感。<br />
+</div>
+        </div>
+                <input type="radio" name="ctl" id="24" value="24" />
+        <label for="24"><img src="24/teiki_s.jpg" alt="silk" /></label>
+        <div class="figure">
+            <b>silk #1</b>
+            <div class="cite">夏服の義光様</div>
+            <a href="24/teiki.jpg"><img src="24/teiki.jpg" alt="夏服の義光様" /></a>
+            <div class="figcaption">義光様は母神</div>
+        </div>
+                <input type="radio" name="ctl" id="25" value="25" />
+        <label for="25"><img src="25/teiki_s.jpg" alt="あぐ" /></label>
+        <div class="figure">
+            <b>あぐ #1</b>
+            <div class="cite">えみりー</div>
+            <a href="25/teiki.jpg"><img src="25/teiki.jpg" alt="えみりー" /></a>
+            <div class="figcaption">仕掛け人さま＾～</div>
+        </div>
+                <input type="radio" name="ctl" id="26" value="26" />
+        <label for="26"><img src="26/teiki_s.jpg" alt="どらすけ" /></label>
+        <div class="figure">
+            <b>どらすけ #1</b>
+            <div class="cite">パツキンヤング</div>
+            <a href="26/teiki.jpg"><img src="26/teiki.jpg" alt="パツキンヤング" /></a>
+            <div class="figcaption">金髪です！！！金髪です！！！！！！</div>
+        </div>
+                <input type="radio" name="ctl" id="27" value="27" />
+        <label for="27"><img src="27/teiki_s.jpg" alt="ナヲキ(ｳｪｲｳｪｳｪ)" /></label>
+        <div class="figure">
+            <b>ナヲキ(ｳｪｲｳｪｳｪ) #1</b>
+            <div class="cite">黄金</div>
+            <a href="27/teiki.jpg"><img src="27/teiki.jpg" alt="黄金" /></a>
+            <div class="figcaption">解体</div>
+        </div>
+                <input type="radio" name="ctl" id="28" value="28" />
+        <label for="28"><img src="28/teiki_s.jpg" alt="ナヲキ(ｳｪｲｳｪｳｪ)" /></label>
+        <div class="figure">
+            <b>ナヲキ(ｳｪｲｳｪｳｪ) #2</b>
+            <div class="cite">黄金２</div>
+            <a href="28/teiki.jpg"><img src="28/teiki.jpg" alt="黄金２" /></a>
+            <div class="figcaption">つよい</div>
+        </div>
+                <input type="radio" name="ctl" id="29" value="29" />
+        <label for="29"><img src="29/teiki_s.jpg" alt="むく" /></label>
+        <div class="figure">
+            <b>むく #1</b>
+            <div class="cite">きさらくん</div>
+            <a href="29/teiki.jpg"><img src="29/teiki.jpg" alt="きさらくん" /></a>
+            <div class="figcaption">ごめんね、金髪だと思ってなかったの<br />
+金髪だって知って急遽落書きを定期絵にしたの<br />
+でもさっきやっと終わったの<br />
+<br />
+背景はクソ</div>
+        </div>
+                <input type="radio" name="ctl" id="30" value="30" />
+        <label for="30"><img src="30/teiki_s.jpg" alt="もたこ" /></label>
+        <div class="figure">
+            <b>もたこ #1</b>
+            <div class="cite">ばにぃ</div>
+            <a href="30/teiki.jpg"><img src="30/teiki.jpg" alt="ばにぃ" /></a>
+            <div class="figcaption">サムネはバニナレフ</div>
+        </div>
+                <input type="radio" name="ctl" id="31" value="31" />
+        <label for="31"><img src="31/teiki_s.jpg" alt="りーろん" /></label>
+        <div class="figure">
+            <b>りーろん #1</b>
+            <div class="cite">セリカおめでとう！！！！！！</div>
+            <a href="31/teiki.jpg"><img src="31/teiki.jpg" alt="セリカおめでとう！！！！！！" /></a>
+            <div class="figcaption">セリカ！！！！！！！！！！　プレイアブル来た！！！！！！！！<br />
+ノエル描きました( ´◔౪ ◔`)</div>
+        </div>
+                <input type="radio" name="ctl" id="32" value="32" />
+        <label for="32"><img src="32/teiki_s.jpg" alt="るるくす" /></label>
+        <div class="figure">
+            <b>るるくす #1</b>
+            <div class="cite">進捗ですご確認ください</div>
+            <a href="32/teiki.jpg"><img src="32/teiki.jpg" alt="進捗ですご確認ください" /></a>
+            <div class="figcaption">ダメみたいですね…</div>
+        </div>
+                <input type="radio" name="ctl" id="33" value="33" />
+        <label for="33"><img src="33/teiki_s.jpg" alt="レルバル" /></label>
+        <div class="figure">
+            <b>レルバル #1</b>
+            <div class="cite">きんぱつてつこ</div>
+            <a href="33/teiki.jpg"><img src="33/teiki.jpg" alt="きんぱつてつこ" /></a>
+            <div class="figcaption">せやな</div>
+        </div>
+                <input type="radio" name="ctl" id="34" value="34" />
+        <label for="34"><img src="34/teiki_s.jpg" alt="レルバル" /></label>
+        <div class="figure">
+            <b>レルバル #2</b>
+            <div class="cite">全てを焼き尽くす暴力</div>
+            <a href="34/teiki.jpg"><img src="34/teiki.jpg" alt="全てを焼き尽くす暴力" /></a>
+            <div class="figcaption">ACVD最高です。</div>
+        </div>
+                <input type="radio" name="ctl" id="35" value="35" />
+        <label for="35"><img src="35/teiki_s.jpg" alt="六(ぽて)" /></label>
+        <div class="figure">
+            <b>六(ぽて) #1</b>
+            <div class="cite">えりーちか</div>
+            <a href="35/teiki.jpg"><img src="35/teiki.jpg" alt="えりーちか" /></a>
+            <div class="figcaption">かわいい</div>
+        </div>
+                <input type="radio" name="ctl" id="36" value="36" />
+        <label for="36"><img src="36/teiki_s.jpg" alt="夕凪うなぎ" /></label>
+        <div class="figure">
+            <b>夕凪うなぎ #1</b>
+            <div class="cite">金髪ズ</div>
+            <a href="36/teiki.jpg"><img src="36/teiki.jpg" alt="金髪ズ" /></a>
+            <div class="figcaption">我が家の金髪、メリアとエドウィージュ</div>
+        </div>
+                <input type="radio" name="ctl" id="37" value="37" />
+        <label for="37"><img src="37/teiki_s.jpg" alt="志高ささ" /></label>
+        <div class="figure">
+            <b>志高ささ #1</b>
+            <div class="cite">ラピカ</div>
+            <a href="37/teiki.jpg"><img src="37/teiki.jpg" alt="ラピカ" /></a>
+            <div class="figcaption">色調いじりまくって遊んでたらすげー色になった</div>
+        </div>
+                <input type="radio" name="ctl" id="38" value="38" />
+        <label for="38"><img src="38/teiki_s.jpg" alt="志高ささ" /></label>
+        <div class="figure">
+            <b>志高ささ #2</b>
+            <div class="cite">舞風</div>
+            <a href="38/teiki.jpg"><img src="38/teiki.jpg" alt="舞風" /></a>
+            <div class="figcaption">描くと出るってやつ</div>
+        </div>
+                <input type="radio" name="ctl" id="39" value="39" />
+        <label for="39"><img src="39/teiki_s.jpg" alt="矢野" /></label>
+        <div class="figure">
+            <b>矢野 #1</b>
+            <div class="cite">ロックちゃんです！</div>
+            <a href="39/teiki.jpg"><img src="39/teiki.jpg" alt="ロックちゃんです！" /></a>
+            <div class="figcaption">金髪だからロック描きました！</div>
+        </div>
+                <input type="radio" name="ctl" id="40" value="40" />
+        <label for="40"><img src="40/teiki_s.jpg" alt="矢野" /></label>
+        <div class="figure">
+            <b>矢野 #2</b>
+            <div class="cite">小悪魔リリス</div>
+            <a href="40/teiki.jpg"><img src="40/teiki.jpg" alt="小悪魔リリス" /></a>
+            <div class="figcaption">リリスちゃんかわいい！</div>
+        </div>
+                <input type="radio" name="ctl" id="41" value="41" />
+        <label for="41"><img src="41/teiki_s.jpg" alt="くりおね" /></label>
+        <div class="figure">
+            <b>くりおね #1</b>
+            <div class="cite">てぃな</div>
+            <a href="41/teiki.jpg"><img src="41/teiki.jpg" alt="てぃな" /></a>
+            <div class="figcaption">未完成につき、ギャラリーへの追加はご勘弁をば</div>
+        </div>
+                <input type="radio" name="ctl" id="42" value="42" />
+        <label for="42"><img src="42/teiki_s.jpg" alt="こまり" /></label>
+        <div class="figure">
+            <b>こまり #1</b>
+            <div class="cite">（・________・）</div>
+            <a href="42/teiki.jpg"><img src="42/teiki.jpg" alt="（・________・）" /></a>
+            <div class="figcaption">at_tantanchaos</div>
+        </div>
+                <input type="radio" name="ctl" id="43" value="43" />
+        <label for="43"><img src="43/teiki_s.jpg" alt="こまり" /></label>
+        <div class="figure">
+            <b>こまり #2</b>
+            <div class="cite">（・__________・）</div>
+            <a href="43/teiki.jpg"><img src="43/teiki.jpg" alt="（・__________・）" /></a>
+            <div class="figcaption">at_tantanchao</div>
+        </div>
+                <input type="radio" name="ctl" id="44" value="44" />
+        <label for="44"><img src="44/teiki_s.jpg" alt="とずってぃ" /></label>
+        <div class="figure">
+            <b>とずってぃ #1</b>
+            <div class="cite">とうもろこし畑で</div>
+            <a href="44/teiki.jpg"><img src="44/teiki.jpg" alt="とうもろこし畑で" /></a>
+            <div class="figcaption">幽霊です。<br />
+<br />
+夏休みの間人権ないのが嫌だったので、今日の朝から昼前にかけて4時間ちょっと、急いで描きました……<br />
+<br />
+塗りとか修正とか間に合わなかったり用事があって発表の場にいないですが人権ください！許してください！！</div>
+        </div>
+                <input type="radio" name="ctl" id="45" value="45" />
+        <label for="45"><img src="45/teiki_s.jpg" alt="にゅる" /></label>
+        <div class="figure">
+            <b>にゅる #1</b>
+            <div class="cite">ハンドメイドバブル</div>
+            <a href="45/teiki.jpg"><img src="45/teiki.jpg" alt="ハンドメイドバブル" /></a>
+            <div class="figcaption">ひさびさに描いた水竜</div>
+        </div>
+                <input type="radio" name="ctl" id="46" value="46" />
+        <label for="46"><img src="46/teiki_s.jpg" alt="佐東志雄" /></label>
+        <div class="figure">
+            <b>佐東志雄 #1</b>
+            <div class="cite">夏はアツイ</div>
+            <a href="46/teiki.jpg"><img src="46/teiki.jpg" alt="夏はアツイ" /></a>
+            <div class="figcaption">夏ですね。暑いですね。彼女と海とか言ってみたいですね(妄言</div>
+        </div>
+                <input type="radio" name="ctl" id="47" value="47" />
+        <label for="47"><img src="47/teiki_s.jpg" alt="朱い" /></label>
+        <div class="figure">
+            <b>朱い #1</b>
+            <div class="cite">レイラさん</div>
+            <a href="47/teiki.jpg"><img src="47/teiki.jpg" alt="レイラさん" /></a>
+            <div class="figcaption">金髪で思い浮かんだのがこの人でした。<br />
+バイルさん（二つ上の卒業した先輩）とこの看板娘、桐島レイラさんです！！！！<br />
+<br />
+なんか本の表紙みたいになってしまった。</div>
+        </div>
+                <input type="radio" name="ctl" id="48" value="48" />
+        <label for="48"><img src="48/teiki_s.jpg" alt="クロウ" /></label>
+        <div class="figure">
+            <b>クロウ #1</b>
+            <div class="cite">シャルロット・デュノア</div>
+            <a href="48/teiki.jpg"><img src="48/teiki.jpg" alt="シャルロット・デュノア" /></a>
+            <div class="figcaption">俺が二次元に行けないのはダイブ装置を作らない世の中が悪い！<br />
+あーシャル可愛いよシャルーーー！！<br />
+<br />
+いつもよりはLoVっぽい画風。後日メイキング載せるかも。<br />
+http://pixiv.me/crowfairwind</div>
+        </div>
+            </div>
+</div>
+
+</body>
+</html>
+
+

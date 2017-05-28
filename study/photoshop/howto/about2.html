@@ -1,0 +1,162 @@
+<html>
+	<head>
+	    	<title>
+	         CreationCG講座～描画モード編～
+	       </title>
+	       <meta http-equiv="Content-Type"content="text/html;charset=Shift_JIS">
+	       <Meta Name="ROBOTS" Content="NONE">
+ <style type="text/css">
+	 <!--
+	 BODY {
+	 text-align:center;}
+	 table{
+	       FONT-SIZE: 13px;
+	       line-height:15pt;
+	       border:0;}
+	 -->
+
+	 </STYLE>
+
+	 </head>
+	<body>
+	<br>
+	<h3>*描画モード*</h3><br><br>
+	<TABLE border="1"bordercolor="#000000" width="600">
+	<TBODY>
+	<tr><td bgcolor="#000000"> <font color="white"><b>&nbsp;描画モードとは？</b></font></td></tr>
+	<tr>
+	<td bgcolor="#ffffff">
+
+
+	<table width="100%" border="0">
+	  <tr>
+	    <td  width="95%" valign="middle">
+
+	&nbsp;&nbsp;&nbsp;&nbsp;レイヤーで画像を重ねる際、上下の画像をどのように合成するかを設定するのが描画モードです。<br>
+	描画モードは、レイヤーをクリックして選択し、レイヤーパレットの左上にある黒い三角をクリックして表示されるリストから選択します。</td>
+	<td width="5%" valign="top"><img src="image/byouga.jpg" width="250" height="254"></td>
+	</tr>
+
+
+　　</table>
+	</TD>
+	</TR>
+
+
+
+	<tr><td bgcolor="#000000"> <font color="white"><b>&nbsp;描画モードの種類</b></font></td></tr>
+	<TR>
+	<TD bgcolor="#ffffff">
+
+   <table width="100%" border="0">
+	  <tr>
+	    <td  width="95%" valign="middle">
+	&nbsp;&nbsp;&nbsp;&nbsp;・通常<br>
+	初期設定のモードです。上の色をそのまま表示します。不透明度を調整すれば、下の画像が透けて見えます。</td>
+	<td width="5%" valign="top"><img src="image/tsujyou.jpg" width="200" height="103"></td>
+	</tr>
+	</table>
+
+	<table width="100%" border="0">
+		  <tr>
+		    <td  width="95%" valign="middle">
+		&nbsp;&nbsp;&nbsp;&nbsp;・ディザ合成<br>
+		不透明度に応じて下の色と上の色をランダムに混合して合成します（左の例は合成色を不透明度＝約50％にしています）。
+</td>
+		<td width="5%" valign="top"><img src="image/dhiza.jpg" width="200" height="103"></td>
+		</tr>
+		</table>
+
+
+			<table width="100%" border="0">
+				  <tr>
+				    <td  width="95%" valign="middle">
+				&nbsp;&nbsp;&nbsp;&nbsp;・乗算<br>
+				下の色と上の色を掛け合わせます。白い部分は透明に、黒い部分はそのまま表示されます。結果色は常に基本色よりも暗くなります。
+				上のレイヤーが透明フィルムに透明インクでできていると思えば理解しやすいと思います。
+		</td>
+				<td width="5%" valign="top"><img src="image/jyousan.jpg" width="200" height="103"></td>
+				</tr>
+				</table>
+
+		<table width="100%" border="0">
+				  <tr>
+				    <td  width="95%" valign="middle">
+				&nbsp;&nbsp;&nbsp;&nbsp;・スクリーン<br>
+				乗算の逆の効果を持ちます。下の色と上の色を反転させて掛け合わせます。結果色は常に基本色よりも明るくなります。
+　　　　　</td>
+				<td width="5%" valign="top"><img src="image/suku.jpg" width="200" height="103"></td>
+				</tr>
+				</table>
+
+		<table width="100%" border="0">
+			 <tr>
+			  <td  width="95%" valign="middle">
+				&nbsp;&nbsp;&nbsp;&nbsp;・オーバーレイ<br>
+			下の色応じて「乗算」と「スクリーン」を使い分けます。シャドウ部分には暗くする「乗算」、ハイライト部分には明るくする「スクリーン」を適用します。
+			そのため、下の色が黒い部分は黒に、白い部分は白として合成されます。
+			</td>
+			<td width="5%" valign="top"><img src="image/over.jpg" width="200" height="103"></td>
+			</tr>
+			</table>
+
+			<table width="100%" border="0">
+						 <tr>
+						  <td  width="95%" valign="middle">
+							&nbsp;&nbsp;&nbsp;&nbsp;・ソフトライト<br>
+						上の色の明度が50％より明るい部分には「覆い焼きカラー」を適用して明るくし、明度が50％より暗い部分には「焼き込みカラー」を適用して暗くします。
+						</td>
+						<td width="5%" valign="top"><img src="image/soft.jpg" width="200" height="103"></td>
+						</tr>
+			</table>
+
+
+			<table width="100%" border="0">
+									 <tr>
+									  <td  width="95%" valign="middle">
+										&nbsp;&nbsp;&nbsp;&nbsp;・ハードライト<br>
+									上の色の明度が50％より明るい部分には「スクリーン」を適用して明るくし、明度が50％より暗い部分には「乗算」を適用して暗くします。
+									</td>
+									<td width="5%" valign="top"><img src="image/hard.jpg" width="200" height="103"></td>
+									</tr>
+						</table>
+
+<table width="100%" border="0">
+									 <tr>
+									  <td  width="95%" valign="middle">
+										&nbsp;&nbsp;&nbsp;&nbsp;・覆い焼きカラー<br>
+									各チャンネルの色情報に基づき、下の色を暗くした上で上の色を反映させます。そのため、白を適用した場合、上の色には変化が生じません。
+									</td>
+									<td width="5%" valign="top"><img src="image/ooi.jpg" width="200" height="103"></td>
+									</tr>
+						</table>
+
+						<table width="100%" border="0">
+															 <tr>
+															  <td  width="95%" valign="middle">
+																&nbsp;&nbsp;&nbsp;&nbsp;・焼き込みカラー<br>
+															各チャンネルの色情報に基づき、下の色を明るくした上で上の色を反映させます。そのため、黒を適用した場合、上の色には変化が生じません。
+									</td>
+															</td>
+															<td width="5%" valign="top"><img src="image/yakikomi.jpg" width="200" height="103"></td>
+															</tr>
+						</table>
+
+
+
+
+
+
+
+
+
+
+
+	</TD>
+	</TR>
+	</TBODY>
+	</TABLE>
+
+
+	</body>
+</html>

@@ -1,0 +1,373 @@
+<html>
+		<head>
+				<title>
+				自由作品みてみようぜ！
+				</title>
+
+<style type=text/css>
+<!--
+body{
+scrollbar-face-color:white;
+scrollbar-highlight-color:white;
+scrollbar-shadow-color:white;
+scrollbar-3dlight-color:white;
+scrollbar-arrow-color:deepskyblue;
+scrollbar-track-color:white;
+scrollbar-darkshadow-color:white;
+}
+-->
+</STYLE>
+
+<SCRIPT language="JavaScript">
+<!--
+var cnt = 0;
+var max = 0;
+var obj;   //id
+var speed = 100;
+
+function init(id){
+    obj = id;
+    setID();
+    changeColor();
+}
+
+function setID(){
+    var font = document.all(obj).innerHTML;
+    var n = "";
+
+    var dt;
+    max = font.length
+    for(i=0;i<max;i++){
+        dt = font.substring(i,i+1);
+        n += "<FONT ID="+obj+i+">"+dt+"</FONT>";
+        if(dt == "。"){
+            n += "<BR>";
+        }
+    }
+    kira.innerHTML = n;
+}
+function changeColor(){
+    var point = document.all(obj+cnt%max).style;
+    var b_point = document.all(obj+Math.abs(cnt-1)%max).style;
+    point.color = "#3366ff";
+    b_point.color= "#00bfff";
+    ++cnt;
+
+    setTimeout("changeColor()",speed);
+}
+-->
+</SCRIPT>
+		</head>
+
+<body onLoad="init('kira')" font size="2" background="C:/My Documents/back.jpg">
+<center>
+<font size="4" color="#00bfff">
+<b><DIV id="kira" style="{font-size:文字サイズ;}" align="center">
+○●○自由作品えつらん○●○</DIV>
+</b>
+</font>
+</center>
+<br><p>
+<div align="center">
+
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width="100%">
+<tr><td>Create</td>
+<td align="right">*　月　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/600.jpg" target="blank">
+<img src="sam/s_create.gif" border="0"></a>
+</td>
+<td>
+今回の作品展示は赤と青がテーマということで
+自由作品は灰色で統一しました。
+時計の模様やプレート部分のモデリングが一番力を入れました。
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width="100%">
+<tr><td>麒麟</td>
+<td align="right">*　LOBSTER　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/webkirin.jpg" target="blank">
+<img src="sam/samkirin.jpg" border="0"></a>
+</td>
+<td>
+「伽魯流（キャロル）さん」と名前をつけて可愛がっている麒麟ですｗ<br>
+春休みに作った作品ですが満足できるところまでできなかったので、レンダリングしなおして加工しました。以前よりフワっとした、いい雰囲気に仕上がったと思います。
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width="100%">
+<tr><td>パレード</td>
+<td align="right">*　LOBSTER　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/webparade.jpg" target="blank">
+<img src="sam/samparade.jpg" border="0"></a>
+</td>
+<td>
+「魔法学校の学園祭パレードに参加することになった見習い魔女。何をしようか悩んでいると、どこからか楽しげな音楽が聞こえてきました。音楽に導かれてたどりついた小屋で”自分たちのための音楽会”を開いている動物達に出会います。　『その素敵な演奏を多くの人に聞かせてみない？』パレード参加を勧められ、動物達は大喜び。早速練習に出かけることになりました。果たしてパレードはうまく行くのでしょうか･･･？」<br>
+ブレーメンの音楽隊その後です。犬がかわいくできてお気に入り♪　背景がニガテなのですが今回はがんばりました！
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width="100%">
+<tr><td>1948年生まれのロックスター！</td>
+<td align="right">*　しんや　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/aerosmith02.jpg" target="blank">
+<img src="sam/aerosmith02.gif" border="0"></a>
+</td>
+<td>
+こんなジジイになりたいです。
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width="100%">
+<tr><td>Have a nice adventure</td>
+<td align="right">*　アマタ　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/free_web_amada.jpg" target="blank">
+<img src="sam/free_thumb_amada.jpg" border="0"></a>
+</td>
+<td>
+乗り物のモデルが
+	ガチ○ャピンだなんて、言えない。
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width="100%">
+<tr><td>「くつろぎの湯」</td>
+<td align="right">*　水琴　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/onnsen.jpg" target="blank">
+<img src="sam/onnsen-s.jpg" border="0"></a>
+</td>
+<td>
+3DCG作品です。さるは作り物っぽく、周りはテクスチャに写真を使ってリアルになるよう制作してみました。
+両親が温泉好きなのでこんな作品になりました。
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width="100%">
+<tr><td>冒険の世界へ！</td>
+<td align="right">*　Shell　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/gakusai-web.jpg" target="blank">
+<img src="sam/gakusai-sam.jpg" border="0"></a>
+</td>
+<td>
+Creationメンバー(の一部)が制作してるゲームのキャラです。
+作画担当じゃないから微妙にデザインが違います。
+爽やかな感じを目指してみました。
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width="100%">
+<tr><td>最果ての森</td>
+<td align="right">*　降雪　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/Forest.jpg" target="blank">
+<img src="sam/Forest_sam.jpg" border="0"></a>
+</td>
+<td>
+むやみにファンタジーです。いろいろと問題作。
+鳥はジャンプをするのでこの程度の飛び石で乗り移れるのですよ。(こじつけ）
+鳥のモデルは極楽鳥。綺麗な飾り羽を持っています。
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width=100%>
+<tr><td>とあるヴォーカルのお兄さん</td>
+<td align="right">*　佳　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/hydes2.jpg" target="blank">
+<img src="sam/hydes.jpg" border="0"></a>
+</td>
+<td>
+初めてフォトショップを使いました。
+色を塗ってはぼかし塗ってはぼかしを繰り返し、
+どうやって下手絵をごまかすかだけを考えて作りました(汗)
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width="100%">
+<tr><td>I love spring</td>
+<td align="right">*　taku　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/ilovespring.jpg" target="blank">
+<img src="sam/ilovespring_samnail.jpg" border="0"></a>
+</td>
+<td>
+ポストカード風に作りました。春のさわやかさを出したつもりです。次回は背景をもっとがんばりたいと思います。
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width="100%">
+<tr><td>Bewitching_devil</td>
+<td align="right">*　歪魅　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/bewitching_devil.jpg" target="blank">
+<img src="sam/bewitching_devil.jpg" border="0"></a>
+</td>
+<td>
+おてんとう様御免なさい
+私も最近橋の住人です(;-д-)<br>
+<p>
+･･･れいた様ぁぁぁぁvV(ﾉ´∀｀*)(死
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width="100%">
+<tr><td>目玉焼きくっついちゃいました</td>
+<td align="right">*　豆　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/01.jpg" target="blank">
+<img src="sam/1sam.jpg" border="0"></a>
+</td>
+<td>
+わくわくしながら夢中で描いてました。最初はただ、セクスィーな唇が描きたかっただけなのです・・・。<br>
+学祭が終わったら、病院に行ってきたいと思います。
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width=100%>
+<tr><td>Je sais votre futur*</td>
+<td align="right">*　雪　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/grave.jpg" target="blank">
+<img src="sam/grave.jpg" border="0"></a>
+</td>
+<td>
+"私はあなたの未来を知っている″
+彼女が訪れたのは彼女自身の墓。
+</td>
+</tr>
+</table>
+</td></tr></table>
+<br>
+<table style="border:1px solid black" cellpadding="4" width="290">
+<tr><td>
+<table style=font-size:8pt; width="100%">
+<tr><td>アクアベース・オペラ</td>
+<td align="right">*　華　*</td></tr>
+</table>
+<hr color="black" size="1" width="98%" align="center">
+<table style=font-size:8pt;>
+<tr>
+<td width="100" align="center">
+<a href="img/kadai_f.jpg" target="blank">
+<img src="sam/kadai_fs.jpg" border="0"></a>
+</td>
+<td>
+とある作品のキャラクターをモチーフに作成。背景は３Ｄの余り物で作成。
+ちなみに丹下ヴォイスなり。
+</td>
+</tr>
+</table>
+</td></tr></table>
+
+</div>
+</body>
+</html>

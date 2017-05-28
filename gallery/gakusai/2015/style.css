@@ -1,0 +1,126 @@
+@charset "shift-jis";
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+/*
+Å§html, body, header, article, footer, article */
+body{
+ background:url(back.png) repeat fixed top;
+ width: 100%;
+ font:normal 80% 'ÉqÉâÉMÉmäpÉS Pro W3','Hiragino Kaku Gothic Pro','ÉÅÉCÉäÉI',Meiryo,Verdana,'ÇlÇr ÇoÉSÉVÉbÉN',sans-serif;
+ color: #B22222;
+ text-align: center;
+}
+.header{
+ background:url(top.jpg) no-repeat center top;
+ width: 900px;
+ height: 200px;
+ margin: 1em auto;
+}
+.section{
+ width:900px;
+ margin: 0 auto;
+}
+.footer{
+ margin: 1em 50px;
+ border: 1px solid #ddd;
+ text-align: center;
+ font-size: 1em;
+ clear: both;
+}
+
+/*
+Å§å©èoÇµ */
+h1{
+ font-size: 1.8em;
+ color: #f71;
+}
+h2{
+ font-size:1.6em;
+ color: #f91;
+}
+/*
+Å§äÓñ{óvëf */
+p{
+ margin: .5em 0;
+}
+em{
+ color: #666;
+ text-decoration: underline;
+}
+strong{
+ font-weight: bold;
+ color: crimson;
+}
+a{
+ text-decoration:none;
+}
+	a:link,a:visited{
+	 color:#f85;
+	}
+	a:hover{
+	 color:#fa3;
+	}
+small{
+ dont-size: small;
+ color: #D2691E;
+}
+img{
+ border: none;
+}
+
+/*
+Å§ÉMÉÉÉâÉäÅ[ */
+#gallery ul{
+ margin: 0 auto;
+}
+#gallery li{
+ position: relative;
+ width: 100px;
+ margin: 4px;
+ padding: 1px;
+ display: inline-table;
+ border: 1px solid #D2691E;
+ list-style-type: none;
+ box-shadow: 0 0 2px #aaa;
+ word-wrap: break-word;
+}
+#gallery li:hover{
+ box-shadow: 0 0 3px #222 ;
+ opacity: 0.8;
+}
+#gallery a{
+ display: block;
+}
+#gallery a:after{
+ content: attr(title);
+ position: relative;
+ color: #DC143C;
+}
+#gallery li img{
+ width: 100px;
+ height: 100px;
+}
+
+.highslide-gallery img{
+ border: 1px solid #444;
+ box-shadow: 0 0 2px #444;
+}
+.highslide-gallery img:hover{
+ box-shadow: 0 0 3px black;
+}
+a[title="prev"], a[title="next"], a[title="return"]{
+ display: block;
+ line-height: 100px;
+ border: solid 1px orange;
+ vertical-align: middle;
+ box-shadow:0 0 5px orange;
+ text-shadow: 0 0 2px orange;
+ font-size:50px;
+}
+a[title="prev"]{position: fixed; top: 10px; left: 10px;}
+a[title="next"]{position: fixed; top: 10px; right: 10px;}
+a[title="return"]{margin: 0 auto; line-height: 50px; width: 80%;}

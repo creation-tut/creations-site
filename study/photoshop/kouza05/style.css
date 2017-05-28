@@ -1,0 +1,61 @@
+	 body			{text-align:left; margin:0px; padding:0px; background-color:#FFFFFF}
+	 a			{color:#57a8d5}
+	 a:hover		{color:#1b6fdb}
+	 
+	 .head		{width:50%; height:75px; margin-left:auto; margin-right:auto; margin-top:2%}
+	 .head td		{vertical-align: middle; padding-top:0px}		
+	 .head1		{width:45px; text-align:right}
+	 .head2		{padding-left:4px}
+	 
+	 .main		{width:100%; margin-top:5%; margin-left:10%; margin-right:10%; text-align:left}
+	 .main h1		{font-size:120%; color:#FF6347; line-height:100%}
+	 .main h2		{font-size:100%; color:#556B2F;margin-top:0px; background-color:D2B48C}
+	 .main p		{font-size:100%; line-height:180%; color:#4F4C43; margin-top:0px; font-family:MSP∫ﬁºØ∏,sans-serif}
+	 .main a		{font-size:100%; line-height:180%; color:#00497c; margin-top:0px; ; text-decoration:none; font-weight:bold}
+	 .main a:hover	{color:#4455b6}
+	 .main img		{padding-top:3%; padding-bottom:5%}
+	 .main hr		{color:cecece; background-color:#cecece; border:none; width:60%}
+	 .main td		{padding:3%}
+	 
+	 .gal			{width:80%; font-size:100%; color:#666666; text-align:center; margin-left:5%}
+	 .gal1			{width:10%}
+	 .gal1 a		{color:#00497c; text-decoration:none; font-family:HGS∫ﬁºØ∏E,sans-serif}
+	 .gal1 a:hover	{color:#4455b6}
+	 .gal1 img		{padding-top:3%; padding-bottom:5%; border="0"}
+	 
+	 .gal2			{width:90%; font-size:100%; color:#666666; text-align:center; ;margin-top:10% ;margin-left:0%}
+	 .gal2 img		{padding-top:0%; padding-bottom:0%; border="0"; float:center; margin-top:0%}
+	 .gal2 p		{font-size:100%; line-height:180%; color:#55CDAA; margin-top:0px; font-family:MSP∫ﬁºØ∏,sans-serif}
+	 .gal2 h2		{font-size:150%; color:#555555;margin-top:0px; text-align:center; margin-top:3%}
+	 .gal2 a		{text-decoration:none}
+	 
+	 .link			{font-size:100%; margin-bottom:20px; font-weight:bold; text-align:left}
+	 .link hr		{color:#cecece; background-color:#cecece; border:none}
+	 .link p		{font-size:80%; color:#999999; margin-top:0px}
+	 .link a		{font-size:100%; line-height:24px; color:#999999; margin-top:0px; ; text-decoration:none; font-weight:bold}
+	 .link a:hover	{color:#43317b}
+	 
+	 .lin			{width:90%; font-size:100%; color:#666666; text-align:center; margin-left:6%}
+	 .lin1			{width:30%}
+	 .lin1 a		{color:#00497c; text-decoration:none; font-weight:bold}
+	 .lin1 a:hover	{color:#4455b6}
+	 .lin1 p		{font-size:100%; line-height:180%; color:#666666; margin-top:0px; font-family:HGS∫ﬁºØ∏E,sans-serif; text-align:center}
+	 .lin1 img		{padding-top:3%; padding-bottom:5%; border="0"}
+	 	 
+	 span.a		{font-size:100%; line-height:24px; color:#FF6347; margin-top:0px}
+	 span.b		{font-size:100%; line-height:24px; color:#FF0000; margin-top:0px; font-weight:bold; font-family:Comic Sans MS,sans-serif}
+	 span.c		{font-size:120%; line-height:24px; color:#000000; margin-top:0px; font-family:HGê≥û≤èëëÃ-PRO,sans-serif}
+	 span.d		{font-size:100%; line-height:24px; color:#000000; margin-top:0px}
+	 span.e		{font-size:120%; line-height:24px; color:#666666; margin-top:0px}
+	 span.f		{font-size:180%; line-height:24px; color:#666666; margin-top:0px}
+	 span.g		{font-size:100%; font-weight:bold; line-height:24px; color:#666666; margin-top:0px}
+	 span.h		{font-size:100%; font-weight:bold; line-height:24px; color:#FF6347; margin-top:0px}
+	 span.j		{font-size:70%; line-height:10px; color:#FF6347; margin-top:0px}
+	 span.i		{font-size:120%; font-weight:bold; line-height:24px; color:#FF6347; margin-top:0px}
+	 span.k		{font-size:150%; font-weight:bold; line-height:24px; color:#666666; marigin-top:0px}
+	 span.l		{font-size:90%;line-height:24px;color:#999999;margin-top:0px}
+	 span.m		{font-size:80%:line-height:24px;color:#ffffff;margin-top:0px}
+	 span.n		{font-size:80%;line-height:24px;color:#666666;margin-top:0px}
+	 span.o		{font-size:120%; line-height:24px; color:#FF6347; margin-top:0px}
+	 span.p		{font-size:100%; line-height:24px; color:#528836; margin-top:0px}
+	 span.q		{font-size:100%; line-height:24px; color:#444444; margin-top:0px}

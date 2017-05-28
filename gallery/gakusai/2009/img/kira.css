@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.t1 {
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 14px;
+	color: #333333;
+	background-attachment: fixed;
+	background-image: url(t.gif);
+	background-repeat: no-repeat;
+}
+.moji {
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 12px;
+}
+.sen {
+	border: 1px solid #CCCCCC;
+}

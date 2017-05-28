@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<LINK rel="Stylesheet" href="mother2.css" type="text/css">
+	<title>カラーコーン</title>
+</head>
+<body>
+<a name="top"></a>
+<div class="main">
+<h2>工程４</h2>
+<table>
+<tr>
+<td>
+<img src="image/mql4.jpg">
+</td>
+<td>
+<p>「オブジェクト」メニュー→「曲面・ミラーのフリーズ」を実行して回転体をフリーズします。</p>
+<p>「回転体」では、オブジェクトは必ず「両面ポリゴン」という状態で生成されます。「ポリゴン｣とは点と点を結んで作成された面のことを言い、
+「両面ポリゴン｣とは表と裏がある「ポリゴン｣のことを言います。<br>
+ただし今回は裏から見る必要は無いため、「両面ポリゴン」を「片面ポリゴン」にしましょう。<br>
+「オブジェクト」メニュー→「面を片面化する」を実行してください。</p>
+<p>実行時まれに、すべての面が表を向かないこと（一部の面が見えなくなること）があります。このような時は「オブジェクト」メニュー→「面の方向を統一する」を実行してください。<br>
+すべての面が反転してしまった場合は、「選択部処理」メニュー→「面を反転」を実行してください。</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<h2>工程５</h2>
+<table>
+<tr>
+<td>
+<img src="image/mql5.jpg">
+</td>
+<td>
+<p>工程３で「角数」に「24」と入力して実行しました。そのため回転体の中心に２４個の頂点が重複しています。（目で見て確認はできませんが）<br>
+不必要な２３個の頂点を削除しましょう。</p>
+<p>「オブジェクト」メニュー→「近接する頂点をくっつける」を実行してください。この操作で２４個の重複した頂点は１個の頂点になります。<br>
+もしうまくいかない場合は、「くっつける距離」の値を上げて実行してください。</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<h2>工程６</h2>
+<table>
+<tr>
+<td>
+<img src="image/mql6.jpg">
+</td>
+<td>
+<p>色を塗り分けるため、面を分割します。ここでは「ナイフ」コマンドを使用します。</p>
+<p>「ナイフ」→「ナイフで面を切断」を選択します。Shiftキーを押しながら横にドラッグしてください。<br>
+Shiftキーを押すことで真っ直ぐ線を引くことができます。</p>
+<p>同じ操作を４回繰り返して、面を分割してください。</p>
+</td>
+</tr>
+</table>
+
+<br>
+<p align="center"><a href="lec1.html">前の工程に戻る</a>　|　<a href="lec3.html">次の工程に進む</a></p>
+<br>
+</div>
+<div class="link">
+<hr>
+<p>→<a href="#top">このページのトップへ</a><br>
+<p>→<a href="mqltop.html">トップページへ</a></p>
+</div>
+</body>
+</html>

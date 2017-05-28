@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../../default.css" type="text/css">
+	<title>Creation's Graffiti</title>
+	<style type="text/css">
+		<!-- html,
+		body {
+			height: 100%;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			overflow: hidden;
+		}
+		
+		.article {
+			background: rgba(220, 220, 220, .2);
+			box-shadow: 0 0 100px #777 inset;
+			height: 100%;
+			overflow: hidden;
+		}
+		
+		.section {
+			position: fixed;
+			height: 100%;
+			width: 100%;
+			overflow-x: auto;
+			overflow-y: hidden;
+			auto;
+			white-space: nowrap;
+		}
+		
+		h1 {
+			background: rgba(220, 220, 20, .2);
+			position: fixed;
+			height: 5%;
+			width: 100%;
+			margin: 0;
+		}
+		
+		.figure {
+			position: fixed;
+			height: 75%;
+			width: 100%;
+			top: 5%;
+			margin: 0;
+			padding: 0;
+			visibility: hidden;
+			overflow: hidden;
+			opacity: 0;
+			transition: all .5s ease 0s;
+		}
+		
+		input:checked + * + .figure {
+			visibility: visible;
+			z-index: 10;
+			opacity: 1;
+		}
+		
+		.figure img {
+			box-shadow: 0 0 5px rgba(20, 20, 20, .4);
+			max-height: 80%;
+			max-width: 100%;
+		}
+		
+		.figcaption {
+			background: rgba(220, 220, 20, .2);
+			position: absolute;
+			height: 10%;
+			width: 100%;
+			bottom: 0;
+			white-space: normal;
+			overflow-y: auto;
+		}
+		
+		input {
+			position: absolute;
+			height: 15%;
+			width: 15%;
+			bottom: 10%;
+			z-index: -10;
+			opacity: 0;
+		}
+		
+		input + label {
+			background: rgba(20, 220, 20, .2);
+			display: inline-block;
+			position: relative;
+			height: 15%;
+			top: 80%;
+			width: auto;
+			max-height: 100px;
+			line-height: 15%;
+			margin: 1em 0;
+			z-index: 15;
+			opacity: .8;
+			cursor: pointer;
+			border-radius: 100%;
+			transform: scale(0.7);
+			overflow: hidden;
+			transition: all .3s ease 0s;
+		}
+		
+		input + label:hover {
+			box-shadow: 0 0 3px #333;
+			opacity: 1;
+		}
+		
+		input + label img {
+			height: 100%;
+		}
+		
+		input:checked {
+			margin: 0 2em;
+		}
+		
+		input:checked + label {
+			margin: 0 2em;
+			top: 77.5%;
+			transform: scale(1);
+			opacity: 1;
+			border-radius: 5%;
+		}
+		
+		.figure input + a {
+			display: none;
+		}
+		
+		.figure input:checked + a {
+			display: inline;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<div class="article">
+		<h1>リメイク</h1>
+		<div class="section">
+			<input type="radio" name="ctl" id="00" value="00" autofocus="autofocus" />
+			<label for="00"><img src="00/teiki_s.jpg" alt="八八二三" /></label>
+			<div class="figure">
+				<b>八八二三 #1</b>
+				<div class="cite">ロボコップ（2014) (初定期）</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="00_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="00_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="00" id="00_old" checked="checked" />
+				<a href="00/teiki.jpg"><img src="00/teiki.jpg" alt="ロボコップ（2014) (初定期）_old" /></a>
+				<input type="radio" name="00" id="00_new" />
+				<a href="00/teiki_2.jpg"><img src="00/teiki2.jpg" alt="ロボコップ（2014) (初定期）_new" /></a>
+				<div class="figcaption">初の定期絵
+					<br /> サークルの時間に描きました。ごめんなさい。
+				</div>
+			</div>
+			<input type="radio" name="ctl" id="01" value="01" />
+			<label for="01"><img src="01/teiki_s.jpg" alt="カレーライス" /></label>
+			<div class="figure">
+				<b>カレーライス #1</b>
+				<div class="cite">ガンナー</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="01_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="01_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="01" id="01_old" checked="checked" />
+				<a href="01/teiki.jpg"><img src="01/teiki.jpg" alt="ガンナー_old" /></a>
+				<input type="radio" name="01" id="01_new" />
+				<a href="01/teiki_2.jpg"><img src="01/teiki_2.jpg" alt="ガンナー_new" /></a>
+				<div class="figcaption">4年前にアナログで描いていたオリジナルの女の子。
+					<br /> ファイル名が「ガンナー」だったけど面倒くさいので描かなかった。設定はあまり覚えていないけど、たぶんめっちゃ目がいいとかそんな感じだったと思う。それの制御みたいなつもりで描いた眼帯っぽいやつがポイント。
+				</div>
+			</div>
+			<input type="radio" name="ctl" id="02" value="02" />
+			<label for="02"><img src="02/teiki_s.jpg" alt="たくみん" /></label>
+			<div class="figure">
+				<b>たくみん #1</b>
+				<div class="cite">南ことり</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="02_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="02_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="02" id="02_old" checked="checked" />
+				<a href="02/teiki.jpg"><img src="02/teiki.jpg" alt="南ことり_old" /></a>
+				<input type="radio" name="02" id="02_new" />
+				<a href="02/teiki_2.jpg"><img src="02/teiki_2.jpg" alt="南ことり_new" /></a>
+				<div class="figcaption">背景…</div>
+			</div>
+			<input type="radio" name="ctl" id="03" value="03" />
+			<label for="03"><img src="03/teiki_s.jpg" alt="のん" /></label>
+			<div class="figure">
+				<b>のん #1</b>
+				<div class="cite">ザリガニがメイン（大嘘）</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="03_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="03_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="03" id="03_old" checked="checked" />
+				<a href="03/teiki.jpg"><img src="03/teiki.jpg" alt="ザリガニがメイン（大嘘）_old" /></a>
+				<input type="radio" name="03" id="03_new" />
+				<a href="03/teiki_2.jpg"><img src="03/teiki_2.jpg" alt="ザリガニがメイン（大嘘）_new" /></a>
+				<div class="figcaption">一年の時テーマ「かわいい」で描いたガリ子ちゃんのリメイクです</div>
+			</div>
+			<input type="radio" name="ctl" id="04" value="04" />
+			<label for="04"><img src="04/teiki_s.jpg" alt="ほんだすぃ" /></label>
+			<div class="figure">
+				<b>ほんだすぃ #1</b>
+				<div class="cite">イカさん</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="04_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="04_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="04" id="04_old" checked="checked" />
+				<a href="04/teiki.jpg"><img src="04/teiki.jpg" alt="イカさん_old" /></a>
+				<input type="radio" name="04" id="04_new" />
+				<a href="04/teiki_2.jpg"><img src="04/teiki_2.jpg" alt="イカさん_new" /></a>
+				<div class="figcaption">かわいいイカさんですくコ:彡～～～</div>
+			</div>
+			<input type="radio" name="ctl" id="05" value="05" />
+			<label for="05"><img src="05/teiki_s.jpg" alt="ReULa" /></label>
+			<div class="figure">
+				<b>ReULa #1</b>
+				<div class="cite">リメイク</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="05_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="05_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="05" id="05_old" checked="checked" />
+				<a href="05/teiki.jpg"><img src="05/teiki.jpg" alt="リメイク_old" /></a>
+				<input type="radio" name="05" id="05_new" />
+				<a href="05/teiki_2.jpg"><img src="05/teiki_2.jpg" alt="リメイク_new" /></a>
+				<div class="figcaption">2年越しに描いたらこんなことになりました</div>
+			</div>
+			<input type="radio" name="ctl" id="06" value="06" />
+			<label for="06"><img src="06/teiki_s.jpg" alt="かにたま" /></label>
+			<div class="figure">
+				<b>かにたま #1</b>
+				<div class="cite">去年のリメイク</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="06_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="06_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="06" id="06_old" checked="checked" />
+				<a href="06/teiki.jpg"><img src="06/teiki.jpg" alt="去年のリメイク_old" /></a>
+				<input type="radio" name="06" id="06_new" />
+				<a href="06/teiki_2.jpg"><img src="06/teiki_2.jpg" alt="去年のリメイク_new" /></a>
+				<div class="figcaption">去年の定期絵「かわいい」のリメイクです！</div>
+			</div>
+			<input type="radio" name="ctl" id="07" value="07" />
+			<label for="07"><img src="07/teiki_s.jpg" alt="ぐれちゃん" /></label>
+			<div class="figure">
+				<b>ぐれちゃん #1</b>
+				<div class="cite">サメ</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="07_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="07_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="07" id="07_old" checked="checked" />
+				<a href="07/teiki.jpg"><img src="07/teiki.jpg" alt="サメ_old" /></a>
+				<input type="radio" name="07" id="07_new" />
+				<a href="07/teiki_2.jpg"><img src="07/teiki_2.jpg" alt="サメ_new" /></a>
+				<div class="figcaption">空飛ぶサメを描きました。</div>
+			</div>
+			<input type="radio" name="ctl" id="08" value="08" />
+			<label for="08"><img src="08/teiki_s.jpg" alt="ネコノハ" /></label>
+			<div class="figure">
+				<b>ネコノハ #1</b>
+				<div class="cite">終着</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="08_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="08_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="08" id="08_old" checked="checked" />
+				<a href="08/teiki.jpg"><img src="08/teiki.jpg" alt="終着_old" /></a>
+				<input type="radio" name="08" id="08_new" />
+				<a href="08/teiki_2.jpg"><img src="08/teiki_2.jpg" alt="終着_new" /></a>
+				<div class="figcaption">ほかのリメイクをしててあまりにもつらくなったので厚塗りの落書き
+					<br /> 学祭のが出てきたから
+				</div>
+			</div>
+			<input type="radio" name="ctl" id="09" value="09" />
+			<label for="09"><img src="09/teiki_s.jpg" alt="ネコノハ" /></label>
+			<div class="figure">
+				<b>ネコノハ #2</b>
+				<div class="cite">at one fell swoop</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="09_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="09_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="09" id="09_old" checked="checked" />
+				<a href="09/teiki.jpg"><img src="09/teiki.jpg" alt="at one fell swoop_old" /></a>
+				<input type="radio" name="09" id="09_new" />
+				<a href="09/teiki_2.jpg"><img src="09/teiki_2.jpg" alt="at one fell swoop_new" /></a>
+				<div class="figcaption">せめて苦しまずに</div>
+			</div>
+			<input type="radio" name="ctl" id="10" value="10" />
+			<label for="10"><img src="10/teiki_s.jpg" alt="やま梨" /></label>
+			<div class="figure">
+				<b>やま梨 #1</b>
+				<div class="cite">ミクちゃんリメイク３回目</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="10_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="10_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="10" id="10_old" checked="checked" />
+				<a href="10/teiki.jpg"><img src="10/teiki.jpg" alt="ミクちゃんリメイク３回目_old" /></a>
+				<input type="radio" name="10" id="10_new" />
+				<a href="10/teiki_2.jpg"><img src="10/teiki_2.jpg" alt="ミクちゃんリメイク３回目_new" /></a>
+				<div class="figcaption">あーー間に合わないかと思った</div>
+			</div>
+			<input type="radio" name="ctl" id="11" value="11" />
+			<label for="11"><img src="11/teiki_s.jpg" alt="ロリたけ" /></label>
+			<div class="figure">
+				<b>ロリたけ #1</b>
+				<div class="cite">川西N1K1</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="11_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="11_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="11" id="11_old" checked="checked" />
+				<a href="11/teiki.jpg"><img src="11/teiki.jpg" alt="川西N1K1_old" /></a>
+				<input type="radio" name="11" id="11_new" />
+				<a href="11/teiki_2.jpg"><img src="11/teiki_2.jpg" alt="川西N1K1_new" /></a>
+				<div class="figcaption">2年半前に作ったモデルの形がアレだったのでリメイク、
+					<br /> Creでテクスチャ力上がったよ! ってやりたかったけどテクスチャ間に合いませんでした_(:3」∠)_</div>
+			</div>
+			<input type="radio" name="ctl" id="12" value="12" />
+			<label for="12"><img src="12/teiki_s.jpg" alt="七号童子" /></label>
+			<div class="figure">
+				<b>七号童子 #1</b>
+				<div class="cite">オリジナルのアレ</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="12_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="12_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="12" id="12_old" checked="checked" />
+				<a href="12/teiki.jpg"><img src="12/teiki.jpg" alt="オリジナルのアレ_old" /></a>
+				<input type="radio" name="12" id="12_new" />
+				<a href="12/teiki_2.jpg"><img src="12/teiki_2.jpg" alt="オリジナルのアレ_new" /></a>
+				<div class="figcaption">オリジナルキャラの女の子です
+					<br /> リメイクというより清書
+					<br /> 名前はAurelia(オーレリア)
+					<br /> 約20歳前半で老化停止しており、その数倍の時間を生きています
+					<br /> 髪の毛の構造はプロトタイプの左下に描いてあります
+					<br />
+					<br />
+					<br /> ...ルザミーネ？うっ（心停止）
+					<br />
+				</div>
+			</div>
+			<input type="radio" name="ctl" id="13" value="13" />
+			<label for="13"><img src="13/teiki_s.jpg" alt="夕蘭わん仔" /></label>
+			<div class="figure">
+				<b>夕蘭わん仔 #1</b>
+				<div class="cite">艦これ4周年っぽい！</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="13_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="13_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="13" id="13_old" checked="checked" />
+				<a href="13/teiki.jpg"><img src="13/teiki.jpg" alt="艦これ4周年っぽい！_old" /></a>
+				<input type="radio" name="13" id="13_new" />
+				<a href="13/teiki_2.jpg"><img src="13/teiki_2.jpg" alt="艦これ4周年っぽい！_new" /></a>
+				<div class="figcaption">艦これ4周年なので、白露型4番艦夕立です。
+					<br /> 嫁は最The高。
+				</div>
+			</div>
+			<input type="radio" name="ctl" id="14" value="14" />
+			<label for="14"><img src="14/teiki_s.jpg" alt="炭尾" /></label>
+			<div class="figure">
+				<b>炭尾 #1</b>
+				<div class="cite">去年リメイクちゃん</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="14_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="14_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="14" id="14_old" checked="checked" />
+				<a href="14/teiki.jpg"><img src="14/teiki.jpg" alt="去年リメイクちゃん_old" /></a>
+				<input type="radio" name="14" id="14_new" />
+				<a href="14/teiki_2.jpg"><img src="14/teiki_2.jpg" alt="去年リメイクちゃん_new" /></a>
+				<div class="figcaption">去年の方が熱意ある…</div>
+			</div>
+			<input type="radio" name="ctl" id="15" value="15" />
+			<label for="15"><img src="15/teiki_s.jpg" alt="鍋" /></label>
+			<div class="figure">
+				<b>鍋 #1</b>
+				<div class="cite">リメイク</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="15_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="15_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="15" id="15_old" checked="checked" />
+				<a href="15/teiki.jpg"><img src="15/teiki.jpg" alt="リメイク_old" /></a>
+				<input type="radio" name="15" id="15_new" />
+				<a href="15/teiki_2.jpg"><img src="15/teiki_2.jpg" alt="リメイク_new" /></a>
+				<div class="figcaption">リメイク前が2016年5月。成長はできたと思う。</div>
+			</div>
+			<input type="radio" name="ctl" id="16" value="16" />
+			<label for="16"><img src="16/teiki_s.jpg" alt="Kia" /></label>
+			<div class="figure">
+				<b>Kia #1</b>
+				<div class="cite">リメイクのリメイクのリメイク</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="16_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="16_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="16" id="16_old" checked="checked" />
+				<a href="16/teiki.jpg"><img src="16/teiki.jpg" alt="リメイクのリメイクのリメイク_old" /></a>
+				<input type="radio" name="16" id="16_new" />
+				<a href="16/teiki_2.jpg"><img src="16/teiki_2.jpg" alt="リメイクのリメイクのリメイク_new" /></a>
+				<div class="figcaption">二年からリメイクしてるものをまたリメイクしました</div>
+			</div>
+			<input type="radio" name="ctl" id="17" value="17" />
+			<label for="17"><img src="17/teiki_s.jpg" alt="アベベ" /></label>
+			<div class="figure">
+				<b>アベベ #1</b>
+				<div class="cite">ぷんすか暁ちゃん</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="17_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="17_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="17" id="17_old" checked="checked" />
+				<a href="17/teiki.jpg"><img src="17/teiki.jpg" alt="ぷんすか暁ちゃん_old" /></a>
+				<input type="radio" name="17" id="17_new" />
+				<a href="17/teiki_2.jpg"><img src="17/teiki_2.jpg" alt="ぷんすか暁ちゃん_new" /></a>
+				<div class="figcaption">１年前の初塗り絵をリメイクしました。</div>
+			</div>
+			<input type="radio" name="ctl" id="18" value="18" />
+			<label for="18"><img src="18/teiki_s.jpg" alt="しろ" /></label>
+			<div class="figure">
+				<b>しろ #1</b>
+				<div class="cite">MIKU</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="18_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="18_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="18" id="18_old" checked="checked" />
+				<a href="18/teiki.jpg"><img src="18/teiki.jpg" alt="MIKU_old" /></a>
+				<input type="radio" name="18" id="18_new" />
+				<a href="18/teiki_2.jpg"><img src="18/teiki_2.jpg" alt="MIKU_new" /></a>
+				<div class="figcaption">初参加。ミクちゃんです。</div>
+			</div>
+			<input type="radio" name="ctl" id="19" value="19" />
+			<label for="19"><img src="19/teiki_s.jpg" alt="やっくん" /></label>
+			<div class="figure">
+				<b>やっくん #1</b>
+				<div class="cite">ダンクシュート！</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="19_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="19_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="19" id="19_old" checked="checked" />
+				<a href="19/teiki.jpg"><img src="19/teiki.jpg" alt="ダンクシュート！_old" /></a>
+				<input type="radio" name="19" id="19_new" />
+				<a href="19/teiki_2.jpg"><img src="19/teiki_2.jpg" alt="ダンクシュート！_new" /></a>
+				<div class="figcaption">1年前のイラストをリメイクしました</div>
+			</div>
+			<input type="radio" name="ctl" id="20" value="20" />
+			<label for="20"><img src="20/teiki_s.jpg" alt="夏時" /></label>
+			<div class="figure">
+				<b>夏時 #1</b>
+				<div class="cite">お空</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="20_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="20_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="20" id="20_old" checked="checked" />
+				<a href="20/teiki.jpg"><img src="20/teiki.jpg" alt="お空_old" /></a>
+				<input type="radio" name="20" id="20_new" />
+				<a href="20/teiki_2.jpg"><img src="20/teiki_2.jpg" alt="お空_new" /></a>
+				<div class="figcaption">色は間に合いませんでした...</div>
+			</div>
+			<input type="radio" name="ctl" id="21" value="21" />
+			<label for="21"><img src="21/teiki_s.jpg" alt="大佐" /></label>
+			<div class="figure">
+				<b>大佐 #1</b>
+				<div class="cite">リメイク</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="21_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="21_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="21" id="21_old" checked="checked" />
+				<a href="21/teiki.jpg"><img src="21/teiki.jpg" alt="リメイク_old" /></a>
+				<input type="radio" name="21" id="21_new" />
+				<a href="21/teiki_2.jpg"><img src="21/teiki_2.jpg" alt="リメイク_new" /></a>
+				<div class="figcaption">去年描いたチラ裏の落書きをリメイクしました。</div>
+			</div>
+			<input type="radio" name="ctl" id="22" value="22" />
+			<label for="22"><img src="22/teiki_s.jpg" alt="るるくす" /></label>
+			<div class="figure">
+				<b>るるくす #1</b>
+				<div class="cite">ぷらちな</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="22_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="22_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="22" id="22_old" checked="checked" />
+				<a href="22/teiki.jpg"><img src="22/teiki.jpg" alt="ぷらちな_old" /></a>
+				<input type="radio" name="22" id="22_new" />
+				<a href="22/teiki_2.jpg"><img src="22/teiki_2.jpg" alt="ぷらちな_new" /></a>
+				<div class="figcaption">持ちうる限り一番最初に塗りきったデジ絵</div>
+			</div>
+			<input type="radio" name="ctl" id="23" value="23" />
+			<label for="23"><img src="23/teiki_s.jpg" alt="桜空乃" /></label>
+			<div class="figure">
+				<b>桜空乃 #1</b>
+				<div class="cite">5年目の紅葉ちゃん</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="23_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="23_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="23" id="23_old" checked="checked" />
+				<a href="23/teiki.jpg"><img src="23/teiki.jpg" alt="5年目の紅葉ちゃん_old" /></a>
+				<input type="radio" name="23" id="23_new" />
+				<a href="23/teiki_2.jpg"><img src="23/teiki_2.jpg" alt="5年目の紅葉ちゃん_new" /></a>
+				<div class="figcaption">どうも！はじめまして！周回プレイ済み新入部員の桜空乃と申します！！！よろしくお願いします！</div>
+			</div>
+			<input type="radio" name="ctl" id="24" value="24" />
+			<label for="24"><img src="24/teiki_s.jpg" alt="肌更" /></label>
+			<div class="figure">
+				<b>肌更 #1</b>
+				<div class="cite">リメイク</div>
+
+				<div class="nav">
+					<button class="button2" type="submit">
+						<label for="24_new">リメイク前</label>
+					</button>
+					<button class="button2" type="submit">
+						<label for="24_old">リメイク後</label>
+					</button>
+				</div>
+				<input type="radio" name="24" id="24_old" checked="checked" />
+				<a href="24/teiki.jpg"><img src="24/teiki.jpg" alt="リメイク_old" /></a>
+				<input type="radio" name="24" id="24_new" />
+				<a href="24/teiki_2.jpg"><img src="24/teiki_2.jpg" alt="リメイク_new" /></a>
+				<div class="figcaption">5年生です。
+					<br /> 定期絵として提出したものではありませんが、2016年6月に描いたものをリメイクしました。ｵﾘｷｬﾗです。
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

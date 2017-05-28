@@ -1,0 +1,21 @@
+.htaccess
+.htpasswd
+.DS_Store
+Thumbs.db
+
+# TODO: config.inc.phpからADMIN_KEYWORD(実質、パスワード)のみをgit管理外にする
+# TODO: 不要なことが確認でき次第、uploader.orgディレクトリは削除し、gitignoreからも削除する
+gallery/uploader/img/*
+gallery/uploader/config.inc.php
+gallery/uploader/teiki.sqlite
+gallery/uploader.org/img/*
+gallery/uploader.org/config.inc.php
+gallery/uploader.org/teiki.sqlite
+
+# TODO: 必要なのか不要なのか調査後、試験ギャラリーディレクトリは削除
+gallery/2011/11_05/試験ギャラリー/
+
+# TODO: 落ち着いたらgit管理に含める
+bbs/bbs01/
+bbs/bbs02/
+bbs/uploda/

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<LINK rel="Stylesheet" href="mother2.css" type="text/css">
+	<title>解像度について</title>
+</head>
+<body>
+<a name="top"></a>
+<div class="main">
+<h2>section 01</h2>
+<p>今回は以前にも説明した「解像度」を、さらに詳しく説明していきます。</p>
+
+<p>そもそも「解像度｣とはPhotoshopだけの概念ではありません。<br>
+Photoshop以外の画像ソフトやスキャナ、プリンタ、モニタにも「解像度｣はあります。<br>
+つまりCGのみではなく、<span class="e">写真や印刷などデジタルの画像を扱うなら</span>、必ず理解しなければならない概念なのです。</p>
+<br>
+<h1>１．画像データの解像度</h1>
+<p>印刷の際に最も重要なことは画像データの解像度です。<br>
+（印刷をしない場合、たとえばホームページのようにモニタ上でのみ画像を使う場合は特に気にする必要はありません）<br>
+画像データに限らず「解像度」という場合、その多くは<span class="e">「dpi (Dots Per Inch)」</span>という単位で表します。<br>
+１インチの長さにいくつの<span class="e">ピクセル（ドット、つまり画像を構成する１個１個の画素）</span>が入るかという事、すなわち画像の「密度」のことと考えて下さい。<br>
+Photoshopのようなビットマップ方式のグラフィックソフトのデータは、小さな四角い点の集まりで写真などの画像をあらわします。<br>
+言ってみれば細かい方眼紙のマス目ひとつひとつを様々な色で塗っていく「塗り絵」のようなものなのです。<br>
+その方眼紙のマス目（＝ピクセル）は正方形なので、マス目の大きさが大きければ、カクカクした画像に見え、小さければ小さいほどそれが目立ちません。<br>
+しかし、下図のように同じ面積を塗ろうとすると、マス目は細かいほど数が多くなり、作業がたいへんになります。パソコンでも同じで、マス目（＝ピクセル）の数が多くなるほどデータ量は大きくなり、ＣＰＵ等に負担がかかって作業のスピードも落ちていきます。<br>
+基本的には、このマス目の総数こそがデータ量（ファイルの大きさ）なのです。</p>
+<table align="center">
+<tr>
+<td align="center">
+<img src="image/natal2.jpg"><br>
+<p align="center">マス目が大きい<br>＝低解像度、マス目が少ない<br>＝データ量が小さい</p>
+</td>
+<td align="center">
+<img src="image/natal1.jpg"><br>
+<p align="center">マス目が小さい<br>＝高解像度、マス目が多い<br>＝データ量が大きい</p>
+</td>
+</tr>
+</table>
+<br>
+<p><span class="a">※上の画像は、データ量の異なる画像を同サイズになるよう解像度（dpi）を調整して<span class="h">印刷した場合の</span>イメージ画像です。この画像自体の解像度は関係有りません。
+またPhotoshopではソフトが作業をしやすくするため、画像の表示されているサイズを調節するため、上図のようには見えません。</span></p>
+<br>
+<p>また、マス目の総数が同じであれば、ひとつひとつのマス目が大きいものの方が、当然ながら全体の広さ（印刷時の大きさ）も広く（大きく）なりますね。この密度が、すなわち「解像度」なのです。Photoshopはこのマス目の数と密度を調節することができます。</p>
+<table align="center">
+<tr>
+<td align="center">
+<img src="image/natal3.jpg"><br>
+<p align="center">マス目が大きい<br>＝低密度、印刷サイズが大きい</p>
+</td>
+<td align="center">
+<img src="image/natal4.jpg"><br>
+<p align="center">マス目が小さい<br>＝高密度、印刷サイズが小さい</p>
+</td>
+</tr>
+</table>
+<br>
+<p><span class="a">※データ量が同じ画像（まったく同一の元データ）の解像度を変え、異なるサイズに<span class="h">印刷した場合の</span>イメージ画像です。</span></p>
+<br>
+<p>用紙と解像度が決まれば用意すべき画像データの縦横それぞれのピクセル数も決まります。計算式で表すと、</p>
+
+<p><span class="e">　 縦（横）のピクセル数　＝　縦（横）の印刷サイズ（インチ）　×　解像度（dpi）</span></p>
+
+<p>となります。<br>
+たとえばプリンタを使い150dpi前後の解像度でＡ４用紙に印刷しようとすると、余白を考えれば1500×1100ピクセル程度の画像を用意すれば良い、ということです。近頃はプリンタの性能が向上していますから、150～300dpiくらいに設定するのが良いでしょう。<br>
+<br>
+<p align="center"><a href="kaizo2.html">section2へ進む</a></p>
+<br>
+</div>
+<div class="link">
+<hr>
+<p>→<a href="#top">このページのトップへ</a><br>
+<p>→<a href="kaizotop.html">トップページへ</a></p>
+</div>
+</body>
+</html>

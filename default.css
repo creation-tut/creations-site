@@ -1,0 +1,236 @@
+@charset "utf-8";
+/*
+▽CSSリセット的なモノ */
+html, body{
+ margin: 0;
+ padding: 0;
+ height: 100%;
+}
+input, textarea{
+ border:1px solid #ddd;
+}
+/*
+▽html, body, header, article, section, footer */
+html{
+ text-align:center;
+}
+body{
+ background:url(img/backlogo.jpg) no-repeat fixed right bottom;
+ font:normal small 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,Verdana,'ＭＳ Ｐゴシック',sans-serif;
+ color: #888;
+ line-height: 1.2em;
+}
+.header{
+ background:url(img/menu.gif) repeat-y left top;
+ position: absolute;
+ top:0;
+ left:0;
+ text-align: center;
+ z-index: 1;
+ width: 200px;
+ height: 100%;
+ margin:0;
+}
+.article{
+ padding: 0 0 0 200px ;
+ height: 100%;
+ overflow: auto;
+}
+.section{
+ padding: 0 25px;
+ text-align: left;
+}
+.footer{
+ margin:1em;
+ border:1px solid #ddd;
+ text-align:center;
+ font-size:1em;
+ clear:both;
+}
+/*
+▽記事の見出し */
+h1, h2, h3, h4, h5, h6{
+ font-size:90%;
+ text-align:center;
+}
+.section h1{
+ font-size: 1.5em;
+ color: #f71;
+ text-align:left;
+ padding: 5px ;
+ border-left: 25px double #777;
+ border-bottom: 1px solid #777;
+}
+.section h2{
+ font-size:1.4em;
+ color: #f91;
+ text-align:left;
+ padding:5px ;
+ border-left: 15px solid #999;
+}
+.section h3{
+ font-size:1.3em;
+ color:#fa1;
+ text-align:left;
+ padding: 5px;
+ border-left: 10px solid #ccc;
+}
+.section h4{
+ font-size:1.2em;
+ color:#fc1;
+ text-align:left;
+ border-left: 5px solid #aaa;
+}
+/*
+▽ナビゲーション */
+.header *{
+ margin: 0;
+ padding: 0;
+}
+
+.nav li, .navi h2{
+ font-size: 1.2em;
+ font-weight: normal;
+ line-height:1.2em;
+ text-align:center;
+}
+.nav li a, .navi h2 a{
+ margin:auto;
+ width:180px;
+ color:#f71;
+ display:block;
+}
+.nav li a:hover, .navi h2 a:hover{
+ background:url(img/menu_link.gif) no-repeat center bottom;
+ color:#fa1;
+ font-weight:bold;
+}
+.nav li#this_page a, .navi h2#this_page a{
+ background:url(img/menu_link.gif) no-repeat center bottom;
+ color:#fa1;
+ font-size: 1.2em;
+ font-weight:bold;
+}
+/*
+▽基本要素(p, em, strong, a, dt, dd, iframe) */
+p{
+ margin:.5em 0;
+}
+em{
+ color:#666;
+ text-decoration: underline;
+}
+strong{
+ font-weight: bold;
+ color: crimson;
+}
+a{
+ text-decoration:none;
+}
+ a:link,a:visited{
+  color:#58f;
+ }
+ a:hover{
+  color:#3af;
+ }
+small{
+ font-size: 90%;
+ color: #999;
+}
+dt{
+ font-size: medium;
+ font-weight: bold;
+ margin: .5em;
+}
+dd{
+ margin: .5em 1em;
+}
+/*
+▽リンクページ */
+#link .figure{
+ background: #fff;
+ width: 210px;
+ padding:5px 0;
+ text-align: center;
+ display: inline-block;
+ margin: .5em;
+ box-shadow: 0 0 2px #aaa;
+ list-style: none;
+ font-weight: bold;
+ color: #000;
+}
+#link .figure img{
+ max-height: 40px;
+ max-width: 200px;
+}
+#link .figure:after{
+ content: attr(title);
+ position: relative;
+ display:block;
+ font-weight: normal;
+ padding: 5px;
+ color: #777;
+}
+/*
+▽ギャラリーリスト */
+#gallery ul{
+  list-style: none;
+}
+#gallery li{
+ position: relative;
+ background:black;
+ height: 100px;
+ width: 100px;
+ text-align: center;
+ margin: 5px;
+ float: left;
+ list-style-type: none;
+ text-shadow: 0 0 1px #000, 0 0 1px #000;
+ color: #fff;
+ font-weight: bold;
+ font-size: medium;
+ box-shadow: 0 0 2px #a90;
+ overflow: hidden;
+}
+#gallery li:hover{
+ box-shadow: 0 0 5px #fe0 ;
+ opacity: 0.8;
+}
+#gallery a:before{
+ content: attr(title);
+ position: absolute;
+ text-align: center;
+ padding: 5px;
+ color: #fff;
+}
+/*
+▽ギャラリー */
+.highslide-gallery, .highslide-gallery p{
+ text-align: center;
+ min-width:720px ;
+}
+.highslide-gallery h1{
+ text-align: center;
+ border: none;
+}
+.highslide-gallery img{
+ border: none;
+ box-shadow: 0 0 2px black;
+ height: 100%;
+}
+.highslide-gallery img:hover{
+ box-shadow: 0 0 4px black;
+}
+a[title="prev"], a[title="next"], a[title="return"]{
+ background: gray;
+ display: block;
+ line-height: 100px;
+ border: solid 1px gray;
+ vertical-align: middle;
+ box-shadow:0 0 5px gray;
+ text-shadow: 0 0 2px #3af;
+ font-size:50px;
+}
+a[title="prev"]{position: fixed; top: 10px; left: 210px;}
+a[title="next"]{position: fixed; top: 10px; right: 20px;}
+a[title="return"]{margin: 0 auto; line-height: 50px; width: 80%;}

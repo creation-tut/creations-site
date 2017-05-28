@@ -1,0 +1,20 @@
+<?php
+/**
+ * basis settings
+ *
+ * @version 0.1
+ * @author konoiz <izumi@konome.org>
+ */
+define('IMAGE_MAX_WIDTH',   1500);             // 作品の最大横幅
+define('IMAGE_MAX_HEIGHT',  1500);             // 作品の最大縦幅
+define('IMAGE_MAX_SIZE',    1048576);           // 作品の最大ファイルサイズ
+define('THUMB_WIDTH',       100);               // サムネイルの横幅
+define('THUMB_HEIGHT',      100);               // サムネイルの縦幅
+define('IMAGE_MAX_UID',     3);                 // 最大投稿数
+define('IMAGE_DIR_NAME',    'img');             // 画像を一時的に保存するディレクトリ名
+define('IMAGE_DB_NAME',     'images.sqlite');   // 画像を管理するDB名
+define('GALLERY_DIR_PATH'   ,'../');            // ギャラリーを作成するディレクトリ
+define('GALLERY_TEMPLATE',  'gallery_template.inc.php');    // ギャラリーページのHTMLテンプレート
+define('GALLERY_FILE_NAME', 'index.html');      // ギャラリーページのファイル名
+define('TEIKI_DB_NAME',     'teiki.sqlite');    // 発表会情報を管理するDB
+define('ADMIN_KEYWORD',     'HOGE');            // 管理画面にアクセスするためのキーワード
